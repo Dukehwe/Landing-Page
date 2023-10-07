@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    background-color: #1F2937;
+    color:aliceblue;
+    
+}
+
+.header-link{
+    display: flex;
+  margin-left: auto;
+  padding-right: 100px;
+}
+.first-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: aliceblue;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    
+}
+.section-one{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    flex-basis: 400px;
+}
+
+.section-one > h1{
+
+ font-weight: bolder;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+  
+}
+button{
+    background-color: blue;
+    width: 100px;
+}
