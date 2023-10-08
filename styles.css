@@ -8,6 +8,7 @@
     align-items: center;
     background-color: #1F2937;
     color:aliceblue;
+    padding-left: 150px;
     
 }
 
@@ -31,6 +32,7 @@
     flex-direction: column;
     text-align: left;
     flex-basis: 400px;
+    padding-right: 16px;
 }
 
 .section-one > h1{
@@ -47,4 +49,79 @@ ul{
 button{
     background-color: blue;
     width: 100px;
+}
+
+.second-sec{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+}
+
+
+.head-2{
+
+   text-align: center;
+   padding-bottom: 14px;
+   
+}
+
+
+.image-two {
+    display: flex;  
+    justify-content: center;  
+     
+
+}
+
+
+.image-two > div{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 210px;
+    justify-content: center;
+    height: 100px;
+}
+
+
+.par{
+
+    display: flex;
+    font-size: 14px;
+   
+}
+
+.par > div{
+    height: 110px;
+    width: 210px;
+ 
+}
+
+
+.third-sec{
+    display: flex;
+    background-color:#E5E7EB ;
+    flex-direction: column;
+}
+
+.third-sec > .foo > p{
+
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 36px;
+}
+
+.foo{
+   text-align: center;
+  
+ 
+}
+
+.mx{
+    display: flex;
+    justify-content: center;
+   
+    margin-left: 400px;
 }
