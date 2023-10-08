@@ -125,3 +125,49 @@ button{
    
     margin-left: 400px;
 }
+
+
+
+.fourth-sec{
+    display: flex;
+    
+    background-color: blue;
+    border-radius: 5px;
+    margin: 100px;
+    justify-content: space-around;
+   padding: 100px;
+
+
+}
+
+
+.fourth-section{
+   
+    color: aliceblue;
+    
+}
+.action{
+    font-size: 21px;
+    font-weight: bold;
+}
+
+button{
+
+    color: aliceblue;
+   border-radius: 16px;
+   border-color: aliceblue;
+   border-style: solid;
+}
+
+.myx{
+    display: flex;
+    flex-direction: rowS;
+   
+}
+
+.footer{
+
+    background-color: #1F2937;
+    text-align: center;
+    color: aliceblue;
+}
